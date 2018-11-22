@@ -34,7 +34,7 @@ function destructivelyRemoveFirstDriver(b) {
 }
 
 function appendDriver(a) {
-  let s = ...drivers
+  let s = drivers
   if (a=1){
     s = [...drivers, 'Broom']
   }
