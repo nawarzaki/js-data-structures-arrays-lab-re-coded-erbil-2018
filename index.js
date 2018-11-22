@@ -55,3 +55,12 @@ function removeLastDriver(o) {
   }
   return w
 }
+
+function removeFirstDriver(r) {
+  let c = drivers
+  if(r=1){
+    c = drivers.slice(1)
+  }
+  return c
+  
+}
