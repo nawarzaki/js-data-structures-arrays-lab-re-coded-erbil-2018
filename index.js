@@ -45,5 +45,13 @@ function prependDriver(t) {
   if (t=1){
     p = ["Arnold", ...drivers]
   }
-  return p 
+  return p
+}
+
+function removeLastDriver(o) {
+  let w = drivers
+  if (o=1){
+    w = drivers.slice(1)
+  }
+  return w
 }
